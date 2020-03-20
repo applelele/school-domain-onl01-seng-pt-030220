@@ -39,6 +39,7 @@ class School
       sorted_student = student_array.sort
       sorted[grade] = sorted_student
     end
+     #what each returns? each returns initial hash(@roster), so need to define what we need to return
     sorted
   end
 end
